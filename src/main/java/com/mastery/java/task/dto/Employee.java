@@ -4,8 +4,8 @@ public class Employee {
     private Long employeeId;
     private String firstName;
     private Gender gender;
-}
-    public Employee(){
+
+    public Employee() {
     }
 
     public Long getEmployeeId() {
@@ -15,6 +15,7 @@ public class Employee {
     public String getFirstName() {
         return firstName;
     }
+
     public Gender getGender() {
         return gender;
     }
@@ -31,3 +32,4 @@ public class Employee {
     public void setGender(Gender gender) {
         this.gender = gender;
     }
+}
